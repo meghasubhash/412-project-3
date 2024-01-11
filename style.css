@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFE6EE;
+    overflow: auto;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    float: left;
+    list-style-type: none;
+    overflow: auto;
+    background-color: #FF69B4; 
+    font-size:large;
+ }
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a{
+    display: block;
+    width: 130px;
+    padding: 3%;
+}
+
+.navbar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navbar a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+
+.aboutme{
+    margin-left: 20%;
+    text-align: center;
+    color: #FF69B4;
+    justify-content: center;
+}
+
+.aboutme img{
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px pink;
+    height: auto;
+    width: 200px;
+    object-fit: contain;
+}
+
+.aboutme p{
+    padding: 5%;
+}
+
+.portfolio{
+    margin-left: 20%;
+    text-align: center;
+    color: #FF69B4;
+    justify-content: center;
+}
+
+.qualifications{
+    margin-left: 20%;
+    text-align: center;
+    color: #FF69B4;
+    justify-content: center;
+}
+
+.service{
+    margin-left: 20%;
+    text-align: center;
+    color: #FF69B4;
+    justify-content: center;
+}
+
+.content{
+    margin-left: 20%;
+    justify-content: center;
+}
